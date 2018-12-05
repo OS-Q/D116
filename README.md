@@ -14,6 +14,7 @@ WIFI信号中继
 
 #### software
 
+[Ref](https://github.com/martin-ger/esp_wifi_repeater.git) 
 
 #### hardware
 
@@ -38,11 +39,11 @@ sub1GHz ->  sub1GHz
 
 #### -> D102：[WIFI中继](https://github.com/OS-Q/D102)
 
-WIFI通道
+WIFI信号中继
 
 #### D103：[语音中继](https://github.com/OS-Q/D103)
 
-FM信号中继
+FM 语音中继
 
 #### D104：[光中继](https://github.com/OS-Q/D104)
 
@@ -50,7 +51,7 @@ FM信号中继
 
 #### D105：[物理中继](https://github.com/OS-Q/D105)
 
-
+NULL
 
 
 ---
