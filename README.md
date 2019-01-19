@@ -1,62 +1,65 @@
-﻿# D102：[WIFI中继设备](https://github.com/OS-Q/D102)
+﻿# D100：[SI4432](https://github.com/OS-Q/D100)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属中继平台：[W15](https://github.com/OS-Q/W15)
+#### 归属短距通道：[W15](https://github.com/OS-Q/W15)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-## [平台描述](https://github.com/OS-Q/D102/wiki) 
+## [设备描述](https://github.com/OS-Q/D100/wiki) 
 
-WIFI信号中继
+Silicon Labs公司推出集成度、低功耗、多频段无线收发芯片，最大功率可以到20dBm（100mw），接收灵敏度可以到-121dbm
 
-### [共用资源](https://github.com/OS-Q/D102/wiki/) 
+### [资源](OS-Q/)
 
-#### software
+#### [文档资料](docs/)
 
-[Ref](https://github.com/martin-ger/esp_wifi_repeater.git) 
+主要的芯片手册和参考设计
 
-#### hardware
+#### [工程代码](project/)
 
-
----
-
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
-
-## [同级设备](https://github.com/OS-Q/W15/wiki/)
-
-#### D99：[有线模块](https://github.com/OS-Q/D99)
-
-有线信号中继
-
-#### D100：[sub1GHz中继](https://github.com/OS-Q/D100)
-
-sub1GHz ->  sub1GHz
-
-#### D101：[BLE中继](https://github.com/OS-Q/D101)
-
-2.4GHz ->  2.4GHz
-
-#### -> D102：[WIFI中继](https://github.com/OS-Q/D102)
-
-WIFI信号中继
-
-#### D103：[语音中继](https://github.com/OS-Q/D103)
-
-FM 语音中继
-
-#### D104：[光中继](https://github.com/OS-Q/D104)
-
-光通信中继
-
-#### D105：[物理中继](https://github.com/OS-Q/D105)
-
-NULL
+包括软件工程文件
 
 
 ---
 
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-###  qitas@qitas.cn
-####  2018-12-5
+- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+
+- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
+
+## [同级设备](https://github.com/OS-Q/W15/wiki) 
+
+#### D99：[CC1101](https://github.com/OS-Q/D99)
+
+TI公司出品的工作在低于1GHz频段的无线数传芯片
+
+#### -> D100：[SI4432](https://github.com/OS-Q/D100)
+
+Silicon Labs公司推出集成度、低功耗、多频段无线收发芯片
+
+#### D101：[SX1278](https://github.com/OS-Q/D101)
+
+Semtech SX1278是半双工传输的低中频收发器，包含LoRa调制，SX1278支持的频段为137-525MHz
+
+#### D102：[NULL](https://github.com/OS-Q/D102)
+
+
+
+#### D103：[NULL](https://github.com/OS-Q/D103)
+
+
+
+#### D104：[NULL](https://github.com/OS-Q/D104)
+
+
+
+#### D105：[NULL](https://github.com/OS-Q/D105)
+
+
+
+---
+
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2019-1-19
 
