@@ -1,7 +1,7 @@
 {
-  "name": "DB",
-  "keywords": "DB",
-  "description": "DB",
+  "name":"DB",
+  "description":"DB",
+  "keywords":"DB,",
   "version": "1.0.0",
   "authors": {
     "name":  "qitas",
@@ -10,8 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/D100.git"
+    "url": "https://github.com/OS-Q/D116.git"
   },
   "frameworks": "arduino",
-  "platforms": "esp8266"
+  "platforms":"espressif,esp8266,esp32"
 }
